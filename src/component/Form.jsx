@@ -9,6 +9,7 @@ const Form = () => {
   const [body, setBody] = useState("");
   const onSubmitHandler = (e) => {
     e.preventDefault();
+    if ((title, body === "")) return;
     setTitle("");
     setBody("");
 
